@@ -1,0 +1,7 @@
+src/IPv4.php		/usr/share/php/php-ip/
+src/IPv6Block.php	/usr/share/php/php-ip/
+src/IPv6.php		/usr/share/php/php-ip/
+src/IPBlock.php		/usr/share/php/php-ip/
+src/IPv4Block.php	/usr/share/php/php-ip/
+src/IPBlockIterator.php	/usr/share/php/php-ip/
+src/IP.php		/usr/share/php/php-ip/
