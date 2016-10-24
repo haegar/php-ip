@@ -123,13 +123,13 @@ abstract class IPBlock implements Iterator, ArrayAccess, Countable
 		}
 
 		if ( ! $this->given_ip instanceof IP ) {
-			$this->given_ip = new $this->ip_class($ip);
+			$this->given_ip = new $this->ip_class($this->given_ip);
 		}
 
 		$this->checkPrefix($prefix);
 		$this->prefix = (int) $prefix;
 
-		$this->first_ip = $ip->bit_and($this->getMask());
+		$this->first_ip = $this->given_ip->bit_and($this->getMask());
 		$this->last_ip = $this->first_ip->bit_or($this->getDelta());
 	}
 
