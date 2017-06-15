@@ -1,3 +1,10 @@
+php-ip (1.0.1+git20161024.sdinetH3) unstable; urgency=medium
+
+  * Rebuild for stretch and php 7.0
+  * Standards-Version: 3.9.8
+
+ -- Sven-Haegar Koch <haegar@sdinet.de>  Thu, 15 Jun 2017 22:02:52 +0200
+
 php-ip (1.0.1+git20161024.sdinetH2) unstable; urgency=medium
 
   * New git snapshot.
